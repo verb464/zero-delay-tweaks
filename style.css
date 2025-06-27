@@ -59,3 +59,24 @@ nav a {
   background: #ff00ff;
   color: black;
 }
+
+.download-btn {
+  display: inline-block;
+  padding: 12px 30px;
+  font-size: 1rem;
+  color: white;
+  background: linear-gradient(90deg, #4a00e0, #8e2de2);
+  border: 2px solid white;
+  border-radius: 6px;
+  margin-top: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: 0.3s ease;
+}
+
+.download-btn:hover {
+  background: white;
+  color: #4a00e0;
+  border-color: #4a00e0;
+}
